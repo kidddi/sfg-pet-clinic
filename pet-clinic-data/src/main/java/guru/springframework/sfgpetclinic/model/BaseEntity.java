@@ -12,6 +12,12 @@ import java.io.Serializable;
 @MappedSuperclass
 public class BaseEntity implements Serializable {
 
+    BaseEntity(Long id) {
+        this.id = id;
+    }
+
+    BaseEntity() {
+    }
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
