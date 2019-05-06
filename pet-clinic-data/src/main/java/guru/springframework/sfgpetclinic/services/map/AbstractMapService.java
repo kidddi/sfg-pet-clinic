@@ -1,8 +1,13 @@
 package guru.springframework.sfgpetclinic.services.map;
 
-import guru.springframework.sfgpetclinic.model.BaseEntity;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.NoSuchElementException;
+import java.util.Set;
 
-import java.util.*;
+import guru.springframework.sfgpetclinic.model.BaseEntity;
 
 /**
  * Created by oleksandr.kydiuk on Feb, 2019
